@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label 'Node-server'
-    }
+    agent any
     environment {
   Buck_name = "my-latest-buck"
 }
